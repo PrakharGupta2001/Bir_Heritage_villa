@@ -56,10 +56,11 @@ export default function Navbar() {
           <div className="flex justify-between h-16 items-center">
             {/* Brand Section */}
             <div className="text-2xl font-serif">
-              <span className={`bg-amber-800 text-white px-3 py-1 rounded-lg`}>BH</span>
-              <span className={`ml-2 ${textColor}`}>Villa</span>
+              <Link to="/" className="flex items-center space-x-2">
+                <span className="bg-amber-800 text-white px-3 py-1 rounded-lg">BH</span>
+                <span className={`ml-2 ${textColor}`}>Villa</span>
+              </Link>
             </div>
-
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
               <Link to="/" className={`${textColor} ${hoverTextColor} transition-colors`}>Home</Link>
