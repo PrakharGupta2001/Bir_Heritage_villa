@@ -130,35 +130,35 @@ export default function Navbar() {
               <Link
                 to="/"
                 onClick={() => setIsOpen(false)}
-                className={`block px-3 py-2 ${textColor} hover:bg-gray-100`}
+                className={`block px-3 py-2 ${textColor2} hover:bg-gray-100`}
               >
                 Home
               </Link>
               <Link
                 to="#about"
                 onClick={() => setIsOpen(false)}
-                className={`block px-3 py-2 ${textColor} hover:bg-gray-100`}
+                className={`block px-3 py-2 ${textColor2} hover:bg-gray-100`}
               >
                 About
               </Link>
               <Link
                 to="/amenities"
                 onClick={() => setIsOpen(false)}
-                className={`block px-3 py-2 ${textColor} hover:bg-gray-100`}
+                className={`block px-3 py-2 ${textColor2} hover:bg-gray-100`}
               >
                 Amenities
               </Link>
               <Link
                 to="/rooms"
                 onClick={() => setIsOpen(false)}
-                className={`block px-3 py-2 ${textColor} hover:bg-gray-100`}
+                className={`block px-3 py-2 ${textColor2} hover:bg-gray-100`}
               >
                 Rooms
               </Link>
               <Link
                 to="/contacts"
                 onClick={() => setIsOpen(false)}
-                className={`block px-3 py-2 ${textColor} hover:bg-gray-100`}
+                className={`block px-3 py-2 ${textColor2} hover:bg-gray-100`}
               >
                 Contact
               </Link>
